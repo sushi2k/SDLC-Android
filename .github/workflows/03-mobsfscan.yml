@@ -3,7 +3,7 @@ name: mobsfscan
 # Documentation for Workflow Syntax: https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
 # The name of the GitHub event that triggers the workflow.
 on:
- a push:
+  push:
     branches: [ master, main ]
   pull_request:
     branches: [ master, main ]
