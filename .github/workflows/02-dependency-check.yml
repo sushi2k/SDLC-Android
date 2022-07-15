@@ -19,9 +19,9 @@ jobs:
          project: 'test'
          path: '.'
          format: 'SARIF'
-         args: >
-           --enableExperimental
-           --scan Podfile.lock
+        #  args: >
+        #    --enableExperimental
+        #    --scan Podfile.lock
      - name: Depcheck - HTML
        uses: dependency-check/Dependency-Check_Action@main
        id: Depcheck-HTML
