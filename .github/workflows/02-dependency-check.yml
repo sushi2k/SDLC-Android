@@ -29,9 +29,9 @@ jobs:
          project: 'test'
          path: '.'
          format: 'HTML'
-         args: >
-           --enableExperimental
-           --scan Podfile.lock
+        #  args: >
+        #    --enableExperimental
+        #    --scan Podfile.lock
      - name: Upload Test results
        uses: actions/upload-artifact@master
        with:
