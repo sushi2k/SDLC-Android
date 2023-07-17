@@ -14,3 +14,4 @@
 #         uses: anchore/sbom-action@v0
 #         with:
 #           path: ./
+#           format: cyclonedx-json
