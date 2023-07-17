@@ -1,17 +1,16 @@
-name: Produce a Gradle SBOM
+# name: Produce a Gradle SBOM
 
-on: [push,pull_request]
+# on: [push,pull_request]
 
-jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@master
+# jobs:
+#   build:
+#     name: Build
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout Repo
+#         uses: actions/checkout@master
 
-      - name: SBOM-Action
-        uses: anchore/sbom-action@v0
-        with:
-          path: ./
-          
+#       - name: SBOM-Action
+#         uses: anchore/sbom-action@v0
+#         with:
+#           path: ./
